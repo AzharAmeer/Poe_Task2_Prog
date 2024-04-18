@@ -1,0 +1,16 @@
+﻿<Window x:Class="Poe_Task2_Prog.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Poe_Task2_Prog"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="684" Width="1000" Background="#FFAFE1AF">
+    <Grid>
+        <Label Content="" HorizontalAlignment="Left" Margin="202,41,0,0" VerticalAlignment="Top" Width="409"/>
+        <Label Content="Time is money, manage it wisely" HorizontalAlignment="Left" Margin="202,41,0,0" VerticalAlignment="Top" Width="591" FontSize="36"/>
+        <Button x:Name="loginButt" Content="Regsiter" HorizontalAlignment="Left" Margin="202,336,0,0" VerticalAlignment="Top" Width="149" FontSize="24" Click="registerButt_Click"/>
+        <Button Content="Login" HorizontalAlignment="Left" Margin="668,336,0,0" VerticalAlignment="Top" Width="149" FontSize="24" Click="loginButt_Click"/>
+
+    </Grid>
+</Window>

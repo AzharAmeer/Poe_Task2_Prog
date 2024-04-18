@@ -1,0 +1,26 @@
+﻿<Window x:Class="Poe_Task2_Prog.HoursAndDate"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Poe_Task2_Prog"
+        mc:Ignorable="d"
+        Title="HoursAndDate" Height="450" Width="800" Background="#FFAFE1AF">
+    <Grid>
+        <Label Content="Please fill in the following requirements of hours required" HorizontalAlignment="Left" Margin="65,55,0,0" VerticalAlignment="Top" Width="639" Height="55" FontSize="24"/>
+        <Label Content="Enter number of weeks in your semester:" HorizontalAlignment="Left" Margin="39,102,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Select your date:" HorizontalAlignment="Left" Margin="39,158,0,0" VerticalAlignment="Top" FontSize="20" Width="356"/>
+        <TextBox x:Name="weeksInSemesterTxt" HorizontalAlignment="Left" Height="24" Margin="511,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="193"/>
+        <Calendar x:Name="calendar" HorizontalAlignment="Left" Margin="511,163,0,0" VerticalAlignment="Top" Width="193"/>
+        <Button x:Name="saveButt" Content="Save" HorizontalAlignment="Left" Margin="283,355,0,0" VerticalAlignment="Top" Width="90" Height="19" Click="saveButt_Click"/>
+        <Button x:Name="clearButt" Content="Clear" HorizontalAlignment="Left" Margin="65,355,0,0" VerticalAlignment="Top" Width="90" Click="clearButt_Click"/>
+        <Menu HorizontalAlignment="Left" Height="55" Margin="0,0,-0.4,0" VerticalAlignment="Top" Width="794" Background="#FF50C878">
+            <Button Content="Login" Height="55" Width="60" BorderBrush="#FF50C878" Background="#FF50C878" Click="Button_Click"/>
+            <Button Content="Add modules" Height="53" BorderBrush="#FF50C878" Background="#FF50C878" Click="Button_Click_1"/>
+            <Button Content="View modules" Height="57" BorderBrush="#FF50C878" Background="#FF50C878" Click="Button_Click_2"/>
+            <Button Content="Displaying details" Height="62" Width="112" BorderBrush="#FF50C878" Background="#FF50C878" Click="Button_Click_3"/>
+            <Button Content="Sign out" Height="53" Width="62" BorderBrush="#FF50C878" Background="#FF50C878" Click="Button_Click_4"/>
+        </Menu>
+
+    </Grid>
+</Window>

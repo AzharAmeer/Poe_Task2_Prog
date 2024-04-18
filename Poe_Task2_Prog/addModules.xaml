@@ -1,0 +1,35 @@
+﻿<Window x:Class="Poe_Task2_Prog.addModules"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Poe_Task2_Prog"
+        mc:Ignorable="d"
+        Title="addModules" Height="450" Width="800" Background="#FFAFE1AF">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="597*"/>
+            <ColumnDefinition Width="197*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Time is money manage it wisely " HorizontalAlignment="Left" Margin="283,39,0,0" VerticalAlignment="Top"/>
+        <Label Content="Here you will be able required to enter the following data" HorizontalAlignment="Left" Margin="268,65,0,0" VerticalAlignment="Top" Width="216" FontSize="8"/>
+        <Label Content="Module code: " HorizontalAlignment="Left" Margin="14,127,0,0" VerticalAlignment="Top"/>
+        <Label Content="Module name: " HorizontalAlignment="Left" Margin="14,158,0,0" VerticalAlignment="Top"/>
+        <Label Content="Number of credits:" HorizontalAlignment="Left" Margin="10,189,0,0" VerticalAlignment="Top"/>
+        <Label Content="Hours of class in a week: " HorizontalAlignment="Left" Margin="10,220,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="modCodeTxt" HorizontalAlignment="Left" Height="20" Margin="7.5,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="modNameTxt" HorizontalAlignment="Left" Height="20" Margin="7.5,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="credsTxt" HorizontalAlignment="Left" Height="20" Margin="7.5,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="hoursTxt" HorizontalAlignment="Left" Height="20" Margin="7.5,232,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <Button x:Name="saveButt" Content="Save" HorizontalAlignment="Left" Margin="303,323,0,0" VerticalAlignment="Top" Width="65" Click="saveButt_Click"/>
+        <Button x:Name="clearButt" Content="Clear" HorizontalAlignment="Left" Margin="92,323,0,0" VerticalAlignment="Top" Width="60" Background="#FFDDDDDD" Click="clearButt_Click"/>
+        <Button x:Name="nextButt" Content="Next" HorizontalAlignment="Left" Margin="7.5,323,0,0" VerticalAlignment="Top" Width="60" Click="nextButt_Click" Grid.Column="1"/>
+        <Menu HorizontalAlignment="Left" Height="39" VerticalAlignment="Top" Width="794" Background="#FF50C878" Margin="0,0,-0.4,0" Grid.ColumnSpan="2">
+            <Button Height="39" Width="57" Content="Login" BorderBrush="#FF50C878" Background="#FF50C878" Click="Button_Click"/>
+            <Button Height="39" Width="84" Content="Add modules" BorderBrush="#FF50C878" Background="#FF50C878" Foreground="Black"/>
+            <Button Height="39" Width="85" Content="View modules" BorderBrush="#FF50C878" Background="#FF50C878" Click="Button_Click_3"/>
+            <Button BorderBrush="#FF50C878" Background="#FF50C878" Content="Displaying Details" Click="Button_Click_1"/>
+            <Button Height="39" Width="57" Content="Sign out" BorderBrush="#FF50C878" Background="#FF50C878" Click="Button_Click_2"/>
+        </Menu>
+    </Grid>
+</Window>

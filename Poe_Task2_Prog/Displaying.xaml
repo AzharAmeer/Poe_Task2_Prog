@@ -1,0 +1,27 @@
+﻿<Window x:Class="Poe_Task2_Prog.Displaying"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Poe_Task2_Prog"
+        mc:Ignorable="d"
+        Title="Displaying" Height="450" Width="800" Background="#FFAFE1AF">
+    <Grid>
+        <Label Content="How many hours do you want to study a day:" HorizontalAlignment="Left" Margin="10,45,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Select a module: " HorizontalAlignment="Left" Margin="23,109,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Select a date: " HorizontalAlignment="Left" Margin="10,266,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="hoursADaytxt" HorizontalAlignment="Left" Height="23" Margin="424,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185"/>
+        <DatePicker x:Name="picker" HorizontalAlignment="Left" Margin="344,286,0,0" VerticalAlignment="Top" Width="185"/>
+        <Button x:Name="viewButt" Content="View" HorizontalAlignment="Left" Margin="93,342,0,0" VerticalAlignment="Top" Width="90" Height="23" Click="viewButt_Click"/>
+        <Menu HorizontalAlignment="Left" Height="46" Margin="0,0,-0.4,0" VerticalAlignment="Top" Width="794" Background="#FF50C878">
+            <Button BorderBrush="#FF50C878" Background="#FF50C878" Content="Login" Height="46" Width="60" Click="Button_Click_2"/>
+            <Button BorderBrush="#FF50C878" Background="#FF50C878" Content="Add modules" Height="46" Click="Button_Click"/>
+            <Button BorderBrush="#FF50C878" Background="#FF50C878" Content="View modules" Height="46" Click="Button_Click_1"/>
+            <Button BorderBrush="#FF50C878" Background="#FF50C878" Content="Displaying Details" Click="Button_Click_3"/>
+            <Button BorderBrush="#FF50C878" Background="#FF50C878" Content="Sign out" Foreground="Black" Height="46" Click="Button_Click_4"/>
+        </Menu>
+        <DataGrid x:Name="dataGrid2" HorizontalAlignment="Left" Height="222" Margin="554,143,0,0" VerticalAlignment="Top" Width="212" FontSize="18"/>
+        <ListBox x:Name="listbox" HorizontalAlignment="Left" Height="137" Margin="344,109,0,0" VerticalAlignment="Top" Width="185" Loaded="ListBox_Loaded"/>
+
+    </Grid>
+</Window>

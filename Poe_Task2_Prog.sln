@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poe_Task2_Prog", "Poe_Task2_Prog\Poe_Task2_Prog.csproj", "{93C07ECC-21DD-4E4D-B78D-4A8C85A4B369}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2POE.Library", "Task2POE.Library\Task2POE.Library.csproj", "{206DF12E-AF4B-4E23-957A-35C05FE50A9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93C07ECC-21DD-4E4D-B78D-4A8C85A4B369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93C07ECC-21DD-4E4D-B78D-4A8C85A4B369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93C07ECC-21DD-4E4D-B78D-4A8C85A4B369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93C07ECC-21DD-4E4D-B78D-4A8C85A4B369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{206DF12E-AF4B-4E23-957A-35C05FE50A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{206DF12E-AF4B-4E23-957A-35C05FE50A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{206DF12E-AF4B-4E23-957A-35C05FE50A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{206DF12E-AF4B-4E23-957A-35C05FE50A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F3C3E2A-BFF6-4A4C-937D-7E8B1CFC5BBB}
+	EndGlobalSection
+EndGlobal
